@@ -69,6 +69,10 @@ footer {
   padding: 5px 15px;
   }
 }
+.logout {
+  margin-left: 20px;
+  width: 90%;
+}
 
 /***MEDIA QUERIES**/
 /* for 980px or less */
@@ -182,7 +186,7 @@ footer {
   background: #f8f8f8;
 }
 
-#all-trails, .about-logout, h3, .collaborators {
+#all-trails, .about-logout, .logout, h3, .collaborators {
   background-color: rgba(164, 191, 208, 0.5);
 }
 
