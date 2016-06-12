@@ -4,6 +4,7 @@
   </div>
 
   <section data-ng-init="globalAuth.getEmail()"></section>
+  <p data-ng-if="globalAuth.email">Hello: {{globalAuth.email}} <a href data-ng-click="globalAuth.logout()">Logout</a></p>
   <div>
     <div class="forecast-list" data-ng-controller="TrailsController as trailsctrl">
       <main-widget data-trail="trail">
