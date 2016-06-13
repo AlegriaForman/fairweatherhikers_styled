@@ -1,6 +1,8 @@
 # Fair Weather Hikers (full)
 ... is the full version of the fairweatherhikers (cli) application. Fair Weather Hikers is a MEAN stack app for planning hikes using trail information, and weather data.
 
+## https://fwhikers.herokuapp.com
+
 ## Create a secure user profile (or not)!
 Signing up is easy and secure! Just enter an  email and the password you
 would like to use and that's it!  The password needs to be at least 8 characters.
