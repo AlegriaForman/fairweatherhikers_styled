@@ -3,14 +3,14 @@
 
 ## https://fwhikers.herokuapp.com
 
-## Create a secure user profile (or not)!
-Signing up is easy and secure! Just enter an  email and the password you
+## Create a user profile
+Signing up is easy! Just enter an email address as your user name and a password you
 would like to use and that's it!  The password needs to be at least 8 characters.
 If the email you enter is already in use, you'll need to use another one.
 
 ## Sign in!
 Signing in is easy too! It works exactly how you'd think it would!  Enter your email
-and password -- if it matches what's in the database, you'll be logged in and whisked away to the main page where you'll see all of the amazing trails!
+and password -- if it matches what's in the database, you'll be logged in and taken to the main page where you'll find hundreds of trails with weather information!
 
 ## Technical Stuff
 
