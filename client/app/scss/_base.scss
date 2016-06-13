@@ -4,7 +4,12 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- }
+}
+
+header {
+  height: 100px;
+  padding: 0 15px;
+}
 
 h1 {
   font-size: 3em;
@@ -28,44 +33,11 @@ p {
 }
 
 footer {
+  clear: both;
+  padding: 0 15px;
+  margin-top: 80px;
   p {
     font-size: 1em;
     padding: 5px;
   }
-}
-
-.trail-list {
-  font-size: 1em;
-  background-color: rgba(164, 191, 208, 0.5);
-  width: 100%;
-  height: 400px;
-  overflow: scroll;
-  margin: 1% 0 0 1%;
-  list-style-type: none;
-  li {
-    padding-bottom: 5px;
-    font-size: 1.5em;
-    button {
-      font-size: 0.8em;
-    }
-  }
-}
-
-.all-trails {
-  clear: both;
-  width: 90%;
-  padding: 0 15px;
-  float: left;
-}
-
-.footer-buttons {
-  height: 40px;
-}
-
-.weather {
-  background-color: rgba(164, 191, 208, 1)
-}
-
-.logout {
-  font-size: 1.2em;
 }

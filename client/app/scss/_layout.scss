@@ -22,16 +22,17 @@
   margin-bottom: 0;
   }
 }
-header {
-  height: 100px;
-  padding: 0 15px;
-}
 
 .auth-view {
+  background-color: #4EBD51;
+  font-size: 1em;
   width: 220px;
   height: auto;
   margin-left: 40%;
   margin-top: 40px;
+  div {
+    margin-left: 30px;
+  }
   label {
     margin-left: 5px;
     display: block;
@@ -40,12 +41,6 @@ header {
     height: 15px;
     width: 80%;
   }
-}
-
-footer {
-  clear: both;
-  padding: 0 15px;
-  margin-top: 80px;
 }
 
 .map-div {
@@ -180,20 +175,4 @@ footer {
       padding-bottom: 5px;
       }
     }
-}
-
-.map-div {
-  background: #f8f8f8;
-}
-
-#all-trails, .about-logout, .logout, h3, .collaborators {
-  background-color: rgba(164, 191, 208, 0.5);
-}
-
-.weather, .map-div, #all-trails, header, .start-content, .auth-view {
-  margin-bottom: 5px;
-}
-
-.weather, .map-div, #all-trails {
-  border: solid 1px #ccc;
 }
